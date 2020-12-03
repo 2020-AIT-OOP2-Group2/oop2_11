@@ -33,11 +33,6 @@ class FaceRecognition():
 
             #認識結果の保存
             cv2.imwrite("output_faceRecognition/detected.png", image)
-
-if __name__ == '__main__':
-    #fr=FaceRecognition()
-    #path="input/a.png"
-    #fr.rectangle_face(path)
     
 
 
